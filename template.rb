@@ -6,6 +6,7 @@ gem 'airbrake'
 gem 'capistrano'
 gem 'rack-git_sha'
 gem 'lograge'
+gem 'draper'
 
 gem_group :development do
   gem 'better_errors'
@@ -32,6 +33,7 @@ application do
 config.app_generators do |g|
       g.test_framework :rspec, views: false, view_specs: false, helpers: false, helper_specs: false, routing_specs: false
       g.stylesheets false
+      g.helper false
       g.javascripts false
     end
   GENERATORS
