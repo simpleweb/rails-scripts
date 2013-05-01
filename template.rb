@@ -2,7 +2,7 @@ run 'rm README.rdoc'
 run 'rm public/index.html'
 run 'rm -rf test'
 
-gem 'airbrake'
+gem 'bugsnag'
 gem 'capistrano'
 gem 'rack-git_sha'
 gem 'lograge'
