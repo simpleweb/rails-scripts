@@ -14,7 +14,7 @@ Simpleweb defaults for projects, this includes, but is not limited to
 the following.
 
 * RSpec for tests
-* Airbrake for exceptions
+* Bugsnag for exceptions
 * Better errors in development
 * Better logs in production
 * Git SHA of the app available at `/sha`
